@@ -75,10 +75,12 @@ img {
     background: #ffffff20;
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid #00000020;
 }
 
 .links > a:hover {
     background: #ffffff;
+    border: 1px solid #000000;
 }
 
 .artist {
