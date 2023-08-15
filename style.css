@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arima', 'Arial', 'Helvetica', cursive;
+    font-size: 16px;
+    background-image: url("assets/tlo.png");
+    background-color: #e2cfbb;
+}
+
+h1, h2, h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    font-family: 'Zeyada', 'Comic Sans', cursive;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+.links > a {
+    /* text-decoration: none; */
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    /* font-family: 'Zeyada', 'Comic Sans', cursive; */
+    background: #ffffff20;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links > a:hover {
+    background: #ffffff;
+}
+
+.artist {
+    display: table;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.long {
+    /* make this style more significatn */
+    background: #aaffaa30;
+}
+
+.artist span {
+    display: table-cell;
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+summary span:nth-child(2) {
+    font-family: 'Zeyada', 'Comic Sans', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.artist span:nth-child(3) {
+    font-weight: 500;
+    color: #666;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.artist:nth-child(even) {
+
+}
+
+summary {
+    /* list-style: none; */
+    text-align: right;
+    list-style-position: outside;
+    padding: 10px;
+    padding-left: 33px;
+    cursor: pointer;
+    background: #ffffff20;
+    border-radius: 10px;
+
+}
+
+.more-info {
+    padding: 2%;
+    padding: 10px;
+    padding-left: 33px;
+    background: #ffffff10;
+    border-radius: 10px;
+}
+
+details:hover,
+details:focus {
+    background: #ffffff44;
+    border-radius: 10px;
+}
