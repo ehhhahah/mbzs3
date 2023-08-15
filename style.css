@@ -115,9 +115,10 @@ summary span:nth-child(2) {
 
 .artist span:nth-child(3) {
     font-weight: 500;
-    color: #666;
-    font-size: 0.75rem;
+    color: #555;
+    font-size: 0.9rem;
     font-style: italic;
+    right: 0;
 }
 
 .artist:nth-child(even) {
