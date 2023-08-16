@@ -43,6 +43,9 @@ img {
     height: auto;
   }
 
+#sita {
+    /* display: grid; */
+}
 
 .links {
     display: flex;
@@ -144,8 +147,10 @@ summary {
 .more-info {
     padding: 2%;
     padding-top: 0;
-    padding-left: 33px;
+    padding-left: 22px;
+    padding-right: 22px;
     border-radius: 10px;
+    /* text-align: justify; */
 }
 
 details:hover,
