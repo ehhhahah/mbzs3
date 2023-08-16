@@ -33,7 +33,7 @@ h1, h2, h3 {
 h1 {
     /* font-family: courier; */
     font-stretch: 10%;
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: italic;
     font-weight: lighter;
 }
@@ -128,9 +128,10 @@ summary span:nth-child(2) {
 }
 
 summary {
-    list-style: none;
+    /* list-style: none; */
     text-align: right;
-    list-pointer: outside;
+
+    /* list-pointer: outside; */
     padding: 10px;
     /* padding-left: 33px; */
     cursor: pointer;
