@@ -24,7 +24,6 @@ a {
 
 h1, h2, h3 {
     font-size: 2.5rem;
-    font-weight: 700;
     margin: 0;
     text-align: center;
     font-family: 'Zeyada', 'Comic Sans', cursive;
@@ -64,6 +63,11 @@ img {
     background-color: #ffffff;
 } */
 
+.overtop > a {
+    text-align: center;
+    font-size: 0.6rem !important;
+}
+
 .source {
     font-size: 0.75rem;
     opacity: 50%;
@@ -73,7 +77,6 @@ img {
     /* text-decoration: none; */
     color: #000;
     font-size: 1rem;
-    font-weight: 700;
     /* font-family: 'Zeyada', 'Comic Sans', cursive; */
     background: #ffffff20;
     padding: 10px;
@@ -115,11 +118,9 @@ img {
 summary span:nth-child(2) {
     font-family: 'Zeyada', 'Comic Sans', cursive;
     font-size: 1.5rem;
-    font-weight: 700;
 }
 
 .artist span:nth-child(3) {
-    font-weight: 500;
     color: #555;
     font-size: 0.9rem;
     font-style: italic;
@@ -133,15 +134,28 @@ summary span:nth-child(2) {
 summary {
     /* list-style: none; */
     text-align: right;
-
     /* list-pointer: outside; */
-    padding: 10px;
-    /* padding-left: 33px; */
+    padding: 8px;
+    padding-left: 16px;
     cursor: pointer;
     background: #ffffff20;
     border-radius: 10px;
     /* border: 1px red solid; */
     /* display: grid; */
+    display: flex;
+    justify-items: start;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.outside {
+    border-right: 5px #263e59aa solid;
+}
+
+.inside {
+    border-right: 5px #594126aa solid;
 }
 
 .more-info {
@@ -173,7 +187,6 @@ details:focus {
 a > h1 {
     text-decoration: none !important;
     color: #000;
-    font-weight: 700;
     font-family: 'Arima';
 }
 
@@ -229,4 +242,16 @@ details[open] summary ~ * {
 @keyframes sweep {
     0%    {opacity: 0%}
     100%  {opacity: 100%}
+}
+
+#time {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-shrink:0;
+    space: nowrap;
+}
+
+#time > p {
+    font-size: 0.57rem;
 }
